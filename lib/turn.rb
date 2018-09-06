@@ -23,7 +23,11 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(board,index)
+<<<<<<< HEAD
     move(board, index)
+=======
+    move(board, index, token)
+>>>>>>> a20bc5b1688876714e423ed36e7c02ffc0f2bb73
     display_board(board)
    else
     puts "try again"
